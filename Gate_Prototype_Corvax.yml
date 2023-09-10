@@ -1,7 +1,7 @@
 - type: gameMap
   id: Gate
   mapName: 'Gate Station'
-  mapPath: /Maps/Gate.yml
+  mapPath: /Uploaded/Gate.yml
   minPlayers: 50
   stations:
     Gate:
@@ -12,8 +12,6 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'ED'
-        - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/emergency_box.yml
         - type: StationJobs
           overflowJobs:
             - Passenger
@@ -66,4 +64,3 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
-
